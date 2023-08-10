@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./index.js" defer></script>
+    <title>Aula 1 - Exer 2</title>
+</head>
+<body>
+    <h1>Criaçao de Personagem</h1>
+    <hr>
+    <form id="cadastrar">
+        <label for="name">Nome:</label>
+        <input type="text" name="name" id="name">
+        <label for="city">Cidade:</label>
+        <input type="text" name="city" id="city"><br>
+        
+        <label for="raca">Escolha sua raça</label>
+        <select name="raca" id="raca">
+            <option selected disabled>Selecione uma opção...</option>
+            <option value="humano">Humano</option>
+            <option value="deus">Deus</option>
+            <option value="planeta">Planeta</option>
+            <option value="animal">Animalo</option>
+        </select><br>
+
+        <label for="apetrecho">Escolha seu apetrecho</label>
+        <select name="apetrecho" id="apetrecho">
+            <option selected disabled>Selecione uma opção...</option>
+            <option value="Magia">Magia</option>
+            <option value="armadura">Armadura</option>
+            <option value="martelo">Martelo</option>
+        </select><br>
+        <button id="btnCadastrar">Cadastrar</button>
+    </form>
+</body>
+</html>
